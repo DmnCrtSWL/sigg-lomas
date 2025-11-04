@@ -47,7 +47,8 @@ const navItems: NavItem[] = [
     name: "Caja",
      subItems: [
       { name: "POS", path: "/pos", pro: false },
-      { name: "Gastos", path: "/gastos", pro: false },
+      { name: "Gastos Fijos", path: "/gastos", pro: false },
+      { name: "Compras", path: "/compras", pro: false },
       { name: "Reportes", path: "/reportes", pro: false },
     ],
   },
@@ -77,7 +78,7 @@ const navItems: NavItem[] = [
     name: "Clientes",
      subItems: [
       { name: "Recurrentes", path: "/recurrentes", pro: false },
-      { name: "pacientes", path: "/pacientes", pro: false },
+      { name: "Pacientes", path: "/pacientes", pro: false },
     ],
   },
 
