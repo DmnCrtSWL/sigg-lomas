@@ -11,8 +11,8 @@ import {
 
 interface Column<T extends Record<string, unknown>> {
   header: string;
-  accessor: keyof T;
-  render?: (value: T[keyof T], row: T) => React.ReactNode;
+  accessor: keyof T | string;
+  render?: (value: any, row: T) => React.ReactNode;
 }
 
 interface BaseTableProps<T extends Record<string, unknown>> {
