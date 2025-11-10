@@ -158,7 +158,7 @@ const POSPage: React.FC = () => {
           {/* Grid productos más usados */}
           <div>
             <h2 className="text-lg font-semibold text-gray-700 mb-3">Productos más usados</h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-3">
               {productosMock.slice(0, 12).map((p) => (
                 <div
                   key={p.id}
